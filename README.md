@@ -168,6 +168,14 @@ class SDTSomeClass {
 }
 ```
 
+## プロトコル名
+Protocol名はSwiftの標準ライブラリに合わせるようにします。
+状態を表すときは語尾にTypeを付けて、状態が変位可能な場合や、ある挙動を実行可能な場合は語尾にableを付けます。
+
+- public protocol IntegerType
+- public protocol CustomStringConvertible
+- public protocol Equatable
+
 ## 頭文字語
 すべて大文字またはすべて小文字とすること。
 
